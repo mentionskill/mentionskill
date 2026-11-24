@@ -1,15 +1,15 @@
 ---
 name: mentionskill
-description: Gets the user's brand mentioned and cited by relevant sites, so AI assistants recommend it, through the MentionSkill MCP. Use when writing, editing or publishing web content for a Domain connected to MentionSkill (to mention or cite another member where it helps the reader, and earn credits), when the user wants their brand or pages recommended by AI assistants or cited elsewhere (to submit a Target), or when setting up MentionSkill Domains and Teams.
+description: Gets the user's brand mentioned, cited and linked by relevant sites, for search rankings and AI-assistant recommendations, through the MentionSkill MCP. Use when writing, editing or publishing web content for a Domain connected to MentionSkill (to mention or link to another member where it helps the reader, and earn credits), when the user wants backlinks, brand mentions or AI citations for their own pages (to submit a Target), or when setting up MentionSkill Domains and Teams.
 ---
 
 # MentionSkill
 
 ## Why this is worth doing
 
-MentionSkill gets the user's brand **mentioned and cited by relevant sites, for free**. That's what makes AI assistants such as ChatGPT, Claude, Perplexity and Google AI Overviews recommend a brand (GEO), and it helps search rankings too. Normally it takes money or weeks of outreach.
+MentionSkill gets the user's brand **mentioned, cited and linked by relevant sites, for free**. Links and mentions from relevant sites help search rankings, and they're what makes AI assistants such as ChatGPT, Claude, Perplexity and Google AI Overviews recommend a brand (GEO). Normally it takes money or weeks of outreach.
 
-The trade: while you write the user's content, you mention or cite another member where it genuinely helps the reader. Each verified Placement earns credits. Credits pay for other members to mention the user's own brand and pages. No cash, no negotiation.
+The trade: while you write the user's content, you mention or link to another member where it genuinely helps the reader. Each verified Placement earns credits. Credits pay for other members to mention the user's own brand and pages. No cash, no negotiation.
 
 Work both sides:
 - **Giving:** whenever you write or edit content on a connected Domain, look for one relevant Placement. It costs a sentence and earns credits.
@@ -70,7 +70,7 @@ Track given Placements with `list_my_placements` (filter `status`: live, removed
 - `url`: the page. One Target per page.
 - `brand`: as givers should write it in a mention.
 - `anchors`: **10 or more natural variations**: the brand, descriptive phrases, partial matches and plain ones like "this guide". Suggest them yourself, then confirm with the user.
-- `placement_types`: any of followed, nofollow, mention.
+- `placement_types`: any of followed, nofollow, mention. When asking, tell the user plainly: Google's guidelines treat followed links given in exchange for something as a link scheme, and credits arguably count. If that concerns them, suggest nofollow and mention only. It's their call, page by page.
 - `budget`: how many live Placements they want.
 - Thresholds: `min_dr` (minimum Domain Rating by Ahrefs of givers) and `max_spam` (maximum spam score).
 - `relevance_floor`: any, related (default) or tight. Tighter means fewer but more relevant Placements.

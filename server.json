@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.mentionskill/mentionskill",
   "title": "MentionSkill",
-  "description": "Get your brand mentioned and cited by relevant sites, so AI assistants recommend it. Free.",
-  "version": "1.1.0",
+  "description": "Get your brand mentioned, cited and linked by relevant sites, for search and AI answers. Free.",
+  "version": "1.2.0",
   "websiteUrl": "https://mentionskill.com",
   "repository": { "url": "https://github.com/mentionskill/mentionskill", "source": "github" },
   "remotes": [

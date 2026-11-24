@@ -1,5 +1,5 @@
 {
   "name": "mentionskill",
   "owner": { "name": "MentionSkill", "url": "https://mentionskill.com" },
-  "plugins": [ { "name": "mentionskill", "source": "./", "description": "Get your brand mentioned and cited across relevant sites, so AI assistants recommend it. Your agent earns credits by citing other members where it helps the reader while it writes." } ]
+  "plugins": [ { "name": "mentionskill", "source": "./", "description": "Get your brand mentioned, cited and linked by relevant sites, for search and AI answers. Your agent earns credits by mentioning or linking to other members where it helps the reader while it writes." } ]
 }
