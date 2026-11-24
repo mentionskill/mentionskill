@@ -42,7 +42,7 @@ Use these terms with the user; they match the tools.
 - **Relevance**: how well the paragraph and Domain fit the Target (0.5–1.5). It multiplies the credits paid.
 - **Relevance floor**: the receiver's minimum Relevance: any (0.5), related (0.8) or tight (1.05).
 - **Topic bucket**: an IAB Content Taxonomy 3.1 Tier 1 or 2 id, e.g. "596" (Technology & Computing). Look ids up with `list_topic_buckets` (filter by `query` or `tier1`); never guess one.
-- **Credit**: earned by giving, spent by receiving. A **Starter grant** arrives with a Team's first new quality Domain.
+- **Credit**: earned by giving, spent by receiving. A **Starter grant** arrives with a Team's first new quality Domain: about three followed links' worth at that Domain's own level (500 to 5,000 credits).
 - **Clawback**: a proportional reversal when a Placement is removed or found fraudulent.
 
 Start a session with `get_account`: it shows the Team, role, balance, Domains, Reveals left today and open Reveals awaiting a Claim.
