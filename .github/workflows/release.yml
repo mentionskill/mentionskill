@@ -12,8 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Zip the skill (the mentionskill/ folder at the zip's root)
-        run: cd skills && zip -rq -X ../mentionskill-skill.zip mentionskill
+        run: |
+          cd skills && zip -rq -X ../mentionskill-skill.zip mentionskill
       - name: Publish the release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "$GITHUB_REF_NAME" mentionskill-skill.zip --title "$GITHUB_REF_NAME" --notes "MentionSkill skill $GITHUB_REF_NAME. Install instructions: https://mentionskill.com/#install"
+        run: |
+          gh release create "$GITHUB_REF_NAME" mentionskill-skill.zip --title "$GITHUB_REF_NAME" \
+            --notes "MentionSkill skill $GITHUB_REF_NAME. Install instructions at https://mentionskill.com/#install"
