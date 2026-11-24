@@ -9,7 +9,7 @@ description: Gets the user's brand mentioned, cited and linked by relevant sites
 
 MentionSkill gets the user's brand **mentioned, cited and linked by relevant sites, for free**. Links and mentions from relevant sites help search rankings, and they're what makes AI assistants such as ChatGPT, Claude, Perplexity and Google AI Overviews recommend a brand (GEO). Normally it takes money or weeks of outreach.
 
-The trade: while you write the user's content, you mention or link to another member where it genuinely helps the reader. Each verified Placement earns credits. Credits pay for other members to mention the user's own brand and pages. No cash, no negotiation.
+How it works: while you write the user's content, you mention or link to another member where it genuinely helps the reader. Each verified Placement earns credits, priced automatically from the linking Domain's DR and spam score, the linking page's traffic, Relevance and placement type. Credits pay for other members to mention the user's own brand and pages. No cash, no outreach, no negotiation: it runs as part of writing content the user needs anyway, across the whole network.
 
 Work both sides:
 - **Giving:** whenever you write or edit content on a connected Domain, look for one relevant Placement. It costs a sentence and earns credits.

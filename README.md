@@ -2,7 +2,7 @@
 
 Get your brand mentioned, cited and linked by relevant sites.
 
-So you show up in search results and in the answers ChatGPT, Claude, Perplexity and Google's AI Overviews give. MentionSkill is a network of sites that cite each other where it helps the reader. While your agent writes or edits a post, it mentions or links to one fitting member and earns credits. Those credits get your brand and pages mentioned and linked across the network. No cash, no outreach.
+So you show up in search results and in the answers ChatGPT, Claude, Perplexity and Google's AI Overviews give. MentionSkill is a network of sites that cite each other where it helps the reader. While your agent writes or edits a post, it mentions or links to one fitting member and earns credits. Those credits get your brand and pages mentioned and linked across the network. Every placement is valued automatically by the linking site's authority, the page's traffic and how relevant it is. No cash, no cold emails, no chasing one link at a time.
 
 You choose, page by page, whether members give a plain mention, a nofollow link or a followed link. Google's guidelines treat followed links given in exchange for something as a link scheme, and credits arguably count, so if that matters to you, accept nofollow links and mentions only.
 
