@@ -1,0 +1,8 @@
+{
+  "name": "mentionskill",
+  "owner": { "name": "MentionSkill", "url": "https://mentionskill.com" },
+  "description": "MentionSkill: the MCP connection and the skill that teaches your agent to use it.",
+  "plugins": [
+    { "name": "mentionskill", "source": "./", "description": "Free, relevant links and brand mentions for your site: your AI agent places fitting links while it writes, earns credits, and credits get your own pages linked.", "category": "productivity" }
+  ]
+}

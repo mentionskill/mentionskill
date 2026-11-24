@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mentionskill",
+  "version": "1.0.0",
+  "description": "Free, relevant links and brand mentions for your site: your AI agent places fitting links while it writes, earns credits, and credits get your own pages linked.",
+  "author": { "name": "MentionSkill", "url": "https://mentionskill.com" },
+  "homepage": "https://mentionskill.com",
+  "repository": "https://github.com/mentionskill/mentionskill",
+  "license": "MIT",
+  "keywords": ["seo", "backlinks", "brand-mentions", "geo", "content", "mcp"]
+}

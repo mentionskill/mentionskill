@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "mentionskill": { "type": "http", "url": "https://mentionskill.com/mcp" }
+  }
+}

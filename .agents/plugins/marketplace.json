@@ -1,0 +1,13 @@
+{
+  "name": "mentionskill",
+  "owner": { "name": "MentionSkill", "url": "https://mentionskill.com" },
+  "plugins": [
+    {
+      "name": "mentionskill",
+      "source": { "source": "local", "path": "./" },
+      "description": "Free, relevant links and brand mentions for your site: your AI agent places fitting links while it writes, earns credits, and credits get your own pages linked.",
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "mentionskill",
+  "version": "1.0.0",
+  "description": "Free, relevant links and brand mentions for your site: your AI agent places fitting links while it writes, earns credits, and credits get your own pages linked.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": { "mentionskill": { "httpUrl": "https://mentionskill.com/mcp" } }
+}
