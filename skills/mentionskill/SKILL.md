@@ -66,7 +66,7 @@ Track given Placements with `list_my_placements` (filter `status`: live, removed
 
 ## Receiving: when the user has a page worth promoting
 
-`submit_target` for one page on a verified Domain of the Team:
+`submit_target` for one page on one of the Team's Domains. It can be one added but not verified yet: the Target is saved now and goes into search once the Domain is verified, so set Targets up straight after `add_domain` rather than waiting. Fields:
 - `url`: the page. One Target per page.
 - `brand`: as givers should write it in a mention.
 - `anchors`: **10 or more natural variations**: the brand, descriptive phrases, partial matches and plain ones like "this guide". Suggest them yourself, then confirm with the user.
