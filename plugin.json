@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "mentionskill",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Get your brand mentioned, cited and linked by relevant sites, for search and AI answers. Your agent earns credits by mentioning or linking to other members where it helps the reader while it writes.",
   "author": { "name": "MentionSkill", "url": "https://mentionskill.com" },
   "homepage": "https://mentionskill.com",
