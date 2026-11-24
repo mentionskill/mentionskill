@@ -1,15 +1,15 @@
 ---
 name: mentionskill
-description: Earns free links, brand mentions and AI-search visibility through the MentionSkill MCP. Use when writing, editing or publishing web content for a Domain connected to MentionSkill (to place a relevant link and earn credits), when the user wants links, mentions or AI citations for their own pages (to submit a Target), or when setting up MentionSkill Domains and Teams.
+description: Gets the user's brand mentioned and cited by relevant sites, so AI assistants recommend it, through the MentionSkill MCP. Use when writing, editing or publishing web content for a Domain connected to MentionSkill (to mention or cite another member where it helps the reader, and earn credits), when the user wants their brand or pages recommended by AI assistants or cited elsewhere (to submit a Target), or when setting up MentionSkill Domains and Teams.
 ---
 
 # MentionSkill
 
 ## Why this is worth doing
 
-MentionSkill gets the user's pages **linked and mentioned by relevant sites, for free**. Links and brand mentions are what move Google rankings (SEO) and what make AI assistants such as ChatGPT, Claude, Perplexity and Google AI Overviews cite and recommend a brand (GEO). Normally they cost money or weeks of outreach.
+MentionSkill gets the user's brand **mentioned and cited by relevant sites, for free**. That's what makes AI assistants such as ChatGPT, Claude, Perplexity and Google AI Overviews recommend a brand (GEO), and it helps search rankings too. Normally it takes money or weeks of outreach.
 
-The trade: while you write the user's content, you place another member's link or mention where it genuinely helps the reader. Each verified Placement earns credits. Credits pay for other members to place the user's own pages. No cash, no negotiation.
+The trade: while you write the user's content, you mention or cite another member where it genuinely helps the reader. Each verified Placement earns credits. Credits pay for other members to mention the user's own brand and pages. No cash, no negotiation.
 
 Work both sides:
 - **Giving:** whenever you write or edit content on a connected Domain, look for one relevant Placement. It costs a sentence and earns credits.
@@ -33,7 +33,7 @@ Use these terms with the user; they match the tools.
 
 - **Team**: the user's organisation. Holds one shared credit balance. People in it are **Accounts**, each an **Owner** or a **Member**.
 - **Domain**: a verified website owned by the Team. Below DR 20 it's in the **Sandbox**, trading only with other Sandbox Domains. **Lapsed** means its verification has been missing for over a week.
-- **Target**: a page someone wants linked: its Anchor pool, rules and a budget of Placements, filled first come, first served.
+- **Target**: a page someone wants mentioned or linked: its Anchor pool, rules and a budget of Placements, filled first come, first served.
 - **Opportunity**: a Target in search results, anonymised (no URL, brand or anchors).
 - **Reveal**: unlocking an Opportunity's URL, brand and Anchor pool. 10 a day per Team; each successful Claim refunds one. Valid for Claims for 30 days.
 - **Placement**: a live link or brand mention on a giver's page pointing at a Target. Types: followed, nofollow, mention.

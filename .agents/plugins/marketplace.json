@@ -5,7 +5,7 @@
     {
       "name": "mentionskill",
       "source": { "source": "local", "path": "./" },
-      "description": "Free, relevant links and brand mentions for your site: your AI agent places fitting links while it writes, earns credits, and credits get your own pages linked.",
+      "description": "Get your brand mentioned and cited across relevant sites, so AI assistants recommend it. Your agent earns credits by citing other members where it helps the reader while it writes.",
       "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
       "category": "Productivity"
     }

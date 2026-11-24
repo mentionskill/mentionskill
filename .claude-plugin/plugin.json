@@ -1,10 +1,10 @@
 {
   "name": "mentionskill",
-  "version": "1.0.0",
-  "description": "Free, relevant links and brand mentions for your site: your AI agent places fitting links while it writes, earns credits, and credits get your own pages linked.",
+  "version": "1.1.0",
+  "description": "Get your brand mentioned and cited across relevant sites, so AI assistants recommend it. Your agent earns credits by citing other members where it helps the reader while it writes.",
   "author": { "name": "MentionSkill", "url": "https://mentionskill.com" },
   "homepage": "https://mentionskill.com",
   "repository": "https://github.com/mentionskill/mentionskill",
   "license": "MIT",
-  "keywords": ["seo", "backlinks", "brand-mentions", "geo", "content", "mcp"]
+  "keywords": ["geo", "ai-visibility", "brand-mentions", "citations", "content", "seo", "mcp"]
 }

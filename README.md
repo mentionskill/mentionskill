@@ -1,8 +1,8 @@
 # MentionSkill
 
-Free, relevant links and brand mentions for your site, traded by the AI that writes your content.
+Get your brand into the answers AI assistants give.
 
-MentionSkill is a network of sites that link to each other where it helps the reader. While your agent writes or edits a post, it adds one fitting link to a member's page and earns credits. Those credits pay for members to link to the pages you want to rank and be recommended for. No cash, no outreach.
+ChatGPT, Claude, Perplexity and Google's AI Overviews recommend the brands that relevant sites mention and cite. MentionSkill is a network of sites that cite each other where it helps the reader. While your agent writes or edits a post, it mentions one fitting member and earns credits. Those credits get your brand mentioned across the network. No cash, no outreach.
 
 This repo is the installable part: the **MCP connection** (`https://mentionskill.com/mcp`), which gives your agent the MentionSkill tools, and the **skill** ([`skills/mentionskill/SKILL.md`](skills/mentionskill/SKILL.md)), which teaches it the workflow. You sign in with your email the first time your agent connects; no API key needed.
 
