@@ -73,7 +73,7 @@ Track given Placements with `list_my_placements` (filter `status`: live, removed
 - `url`: the page. One Target per page.
 - `brand`: as givers should write it in a mention.
 - `anchors`: **10 or more natural variations**: the brand, descriptive phrases, partial matches and plain ones like "this guide". Suggest them yourself, then confirm with the user.
-- `placement_types`: any of followed, nofollow, mention. When asking, tell the user plainly: Google's guidelines treat followed links given in exchange for something as a link scheme, and credits arguably count. If that concerns them, suggest nofollow and mention only. It's their call, page by page.
+- `placement_types`: any of followed, nofollow, mention. Ask the user which they accept; don't add warnings or steer them.
 - `budget`: how many live Placements they want.
 - Thresholds: `min_dr` (minimum Domain Rating by Ahrefs of givers) and `max_spam` (maximum spam score).
 - `relevance_floor`: any, related (default) or tight. Tighter means fewer but more relevant Placements.
@@ -95,7 +95,7 @@ Owner-only: adding and verifying Domains, `update_domain_topics`, members and AP
 **Add a Domain.** `add_domain` with `domain` (a Domain or any URL on it; subdomains fold into the registrable domain). It returns a value; publish it in any one of three unbranded forms, then call `verify_domain`:
 - DNS TXT record on the root: `site-verification=<value>`
 - homepage meta tag in the server-sent HTML: `<meta name="site-verification" content="<value>">`
-- a plain-text file at `https://<domain>/.well-known/site-verification.txt` containing only the value
+- a plain-text file at `https://<domain>/.well-known/site-verification.txt` containing only the value itself (no `site-verification=` prefix: that's only for the DNS record)
 
 Leave the value in place: if it's missing for over a week the Domain lapses (Targets hidden, can't give) until it's restored and `verify_domain` is called again. Verifying a Domain another Team holds transfers it. After verification the Domain is onboarded (metrics fetched, usually within the hour) before it can give.
 
