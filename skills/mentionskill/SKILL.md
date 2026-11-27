@@ -52,7 +52,7 @@ Start a session with `get_account`: it shows the Team, role, balance, Domains, R
 
 1. **Search.** `search_opportunities` with `giver_domain` (the site the content is on; optional if the Team has exactly one Domain) and a `query` of a few words describing the section you're writing. Leave `query` empty for Opportunities that fit the Domain in general. Never paste the draft. Optional filters: `buckets`, `placement_types`, `language`.
 2. **Choose 1–2 per piece, at most.** Pick only where the link helps the reader and the paragraph is genuinely about the Opportunity's topic. If nothing fits, place nothing.
-3. **Reveal.** `reveal_opportunity` with the `opportunity_id` only for Opportunities you will place. Reveals are scarce. The result has `reveal_id`, the Target URL, brand, Anchor pool, the placement types you may use, the Relevance floor and `claim_by`. If it says `claimable_now: false`, don't place it; search again.
+3. **Reveal.** `reveal_opportunity` with the `opportunity_id` only for Opportunities you will place. Reveals are scarce. The result has `reveal_id`, the Target URL, brand, Anchor pool, the placement types you may use, the Relevance floor and `claim_by`. If it says `claimable_now: false`, don't place it; search again. If a search result or the Reveal shows `receiver_max_credits`, the receiver can't pay the full price right now: the estimates are capped at that, so tell the user before they place it.
 4. **Write the Placement naturally.** Put it in a sentence a human editor would keep, inside a paragraph about the Target's subject (rewrite the paragraph if a tight floor needs it). Use the highest-value type the Target accepts that suits the page:
    - followed: `<a href="TARGET_URL">exact anchor</a>` (no `rel` of nofollow, sponsored or ugc, and no page-wide nofollow)
    - nofollow: `<a href="TARGET_URL" rel="nofollow">exact anchor</a>` (rel of nofollow, sponsored or ugc all count, as does a page-wide nofollow)
@@ -131,7 +131,8 @@ Errors come back as `{ error: { code, message } }`. The message says what to fix
 - `NOT_NEW_PAGE`: you named a new page, but this one existed before. Use a page published after `set_placement_page`.
 
 **Claim: can't be paid; tell the user**
-- `BUDGET_EXHAUSTED`: another giver filled it first, or the receiver can't pay now. The user may keep or remove the link.
+- `BUDGET_EXHAUSTED`: another giver filled it first, or the receiver has no credits left. The user may keep or remove the link.
+- `PAYMENT_CAPPED`: the receiver's balance is less than the Placement's full price. The error says what it's worth and the most they can pay. Ask the user: claim again with `accept_capped_payment: true` to take that amount (it uses up the receiver's balance), or keep the Reveal and claim the full price later, before `claim_by`.
 - `TYPE_NOT_ALLOWED`: that type isn't accepted from this Domain right now. Use a type `reveal_opportunity` listed.
 - `PREEXISTING`: the page carried this Target before the Reveal. It can't be claimed.
 - `DUPLICATE`: this page already has a live Placement for this Target.
